@@ -32,17 +32,17 @@ Clone this repo and run in terminal/PowerShell:
 
 Open the terminal/PowerShell and if you have an NVIDIA GPU, run:
 
-`docker run --gpus all --rm -it -p 7860:7860 er0manga`
+`docker run --gpus all --rm -it -p 7860:7860 er0manga/er0mangademo`
 
 Otherwise, for CPU-based inference (significantly slower) run:
 
-`docker run --rm -it -p 7860:7860 er0manga`
+`docker run --rm -it -p 7860:7860 er0manga/er0mangademo`
 
 ### Step 2:
 
 Go to 127.0.0.1:7860 in the browser, upload the image and do some testing!
 
-Notice that you can run `docker run --rm -it -p 7860:7860 --entrypoint /bin/bash er0manga` to explore and run the code yourself.
+Notice that you can run `docker run --rm -it -p 7860:7860 --entrypoint /bin/bash er0manga/er0mangademo` to explore and run the code yourself.
 
 ## The links to the repos that do the processing:
 
