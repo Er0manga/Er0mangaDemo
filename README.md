@@ -16,7 +16,9 @@ If you are using Linux: install docker normally
 
 #### (Easy option) Pull docker image directly from docker hub:
 
-TBD
+Run in the terminal/PowerShell:
+
+`docker pull er0manga/er0mangademo:latest`
 
 OR
 
